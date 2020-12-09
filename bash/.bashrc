@@ -117,14 +117,8 @@ if ! shopt -oq posix; then
 fi
 
 
-PATH="$PATH:/opt"
-export PATH
-
 
 # IMSL
-
-IMSL_LIC_FILE="/opt/RogueWav/license/imsl_eval.dat"
-export IMSL_LIC_FILE
 
 ROGUEWAVE_DIR="/opt/RogueWave"
 CNL_DIR="/opt/RogueWave/imsl/cnl-2019.0.0"
@@ -190,9 +184,11 @@ else
    export LINK_CNL_STATIC_SMP
 fi
 
+IMSL_LIC_FILE="$ROGUEWAVE_DIR/license/imsl_eval.dat"
+export IMSL_LIC_FILE
 
 
-# Anaconda was installed in /opt/anaconda3
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/opt/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
@@ -207,6 +203,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
 
 conda config --set auto_activate_base false
