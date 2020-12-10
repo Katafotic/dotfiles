@@ -1,0 +1,14 @@
+{
+	
+
+
+
+
+	// https://hackernoon.com/super-charge-your-sublime-text-3-to-increase-your-productivity-5d02c2c1b356
+	"highlight_line": true,
+    "material_theme_accent_orange": true,
+    "word_wrap": true,
+	"draw_centered": true,
+	"wrap_width": 80,
+
+}

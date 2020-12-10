@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"A File Icon",
+		"All Autocomplete",
+		"Anaconda",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Emmet",
+		"File Rename",
+		"FileIcons",
+		"GitGutter",
+		"Increment Selection",
+		"Jedi - Python autocompletion",
+		"Jump Along Indent",
+		"Material Monokai",
+		"Material Theme",
+		"Monokai++",
+		"MultiEditUtils",
+		"Origami",
+		"Package Control",
+		"PlainTasks",
+		"Predawn",
+		"Predawn Monokai",
+		"SFTP",
+		"Sublime Bookmarks",
+		"SublimeLinter",
+		"Sync Settings",
+		"Terminus",
+		"Theme - Soda"
+	]
+}

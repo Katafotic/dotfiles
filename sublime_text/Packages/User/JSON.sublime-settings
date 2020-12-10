@@ -1,0 +1,9 @@
+// These settings override both User and Default settings for the JSON syntax
+{
+	"origami_auto_close_empty_panes": true,
+	// выделить измененные вкладки
+	"highlight_modified_tabs": true,
+
+	"show_encoding": true,
+	"show_line_endings": true
+}

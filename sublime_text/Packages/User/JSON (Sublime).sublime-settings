@@ -1,0 +1,22 @@
+// These settings override both User and Default settings for the JSON (Sublime) syntax
+{
+	"font_size": 12,
+	"line_numbers": true,
+	
+    
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+
+    "indent_to_bracket": true,
+
+
+	"spell_check": true,
+	"dictionary": "Packages/Language - English/en_US.dic",
+
+
+    "draw_minimap_border": false,
+    "always_show_minimap_viewport": false,
+
+
+
+}

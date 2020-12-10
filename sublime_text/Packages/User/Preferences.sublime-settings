@@ -1,0 +1,21 @@
+{
+	"allow_git_home_dir": false,
+	"color_scheme": "Packages/Predawn Monokai/Predawn Monokai.tmTheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "system",
+	"detect_indentation": true,
+	"fallback_encoding": "Western (Windows 1252)",
+	"font_size": 14,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"origami_auto_close_empty_panes": true,
+	"show_encoding": true,
+	"show_git_status": true,
+	"show_line_endings": true,
+	"spell_check": true,
+	"theme": "Adaptive.sublime-theme"
+}
