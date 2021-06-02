@@ -1,0 +1,38 @@
+call plug#begin('~/.vim/plugged')
+" Дерево Ctrl-n
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+" Авто дополнение
+Plug 'ycm-core/YouCompleteMe'
+" Тема
+Plug 'morhetz/gruvbox'
+" Полоса внизу
+Plug 'vim-airline/vim-airline'
+" Автоматическая расстановка закрывающих скобок, ковычек
+Plug 'jiangmiao/auto-pairs'
+" Вертикальная полоса слева, отображающая изменения в git репозитории
+Plug 'airblade/vim-gitgutter'
+" Поиск файлов Ctrl-p / Ctrl-g
+Plug 'ctrlpvim/ctrlp.vim'
+" Быстрый переход по файлу
+Plug 'easymotion/vim-easymotion'
+call plug#end()
+
+set number
+set expandtab
+set tabstop=4
+
+set hlsearch
+set incsearch
+
+syntax on
+colorscheme gruvbox
+set background=dark
+
+" mappings
+" Ctrl-N открывает и закрывает окно
+map <C-n> : NERDTreeToggle <CR>
+
+"Для vim-easymotion изменим значение клавиши Leader с Backslash на ,
+let g:mapleader=','
+"Поиск активизируется сочетанием Leader + s, далее навигация по буквам.
+map <Leader> <PLug>(easymotion-prefix)
